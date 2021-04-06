@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="author" content="John Dean">
+<title>March Madness</title>
+<style>
+html {display: flex; justify-content: center;}
+body {display: table;}
+.row {display: table-row;}
+.cell {
+display: table-cell;
+border: thin solid;
+text-align: center;
+vertical-align: middle;
+}
+.end {width: 200px; padding: 10px;}
+th {width: 40px;}
+tr:nth-of-type(4) td:nth-of-type(n+5),tr:nth-of-type(n+5) {
+background-color: gold;
+}
+</style>
+</head>
+<body>
+<div class="row">
+<div class="end cell">
+<h1>March Madness</h1>
+</div>
+<table class="cell">
+<caption><h3>March</h3></caption>
+<tr>
+<th>Sun</th><th>Mon</th><th>Tues</th><th>Wed</th><th>Thur</th><th>Fri</th><th>Sat</th>
+</tr>
+<tr>
+<td>&nbsp;</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td>
+</tr>
+<tr>
+<td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td>
+</tr>
+<tr>
+<td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td>
+</tr>
+<tr>
+<td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td><td>27</td>
+</tr>
+<tr>
+<td>28</td><td>29</td><td>30</td><td>31</td><td></td><td></td><td></td>
+</tr>
+<tr>
+<td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+</tr>
+</table>
+<article class="end cell">
+<h3>The Jayhawks</h3>
+Hail to thee our alma mater, towering towards the blue. Lift the banner ever skyward, Hail to the old KU.
+</article>
+</div>
+</body>
+</html>
